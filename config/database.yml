@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: db/research-projects
+  database: db/careerfriend
   pool: 5
   username: postgres
   password: Zozo2Kx$
