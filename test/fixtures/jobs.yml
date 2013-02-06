@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  location: MyString
+  level: 1
+  reward: 9.99
+  rewardtype: 
+  company: MyString
+  description: MyText
+  skills: MyText
+
+two:
+  name: MyString
+  location: MyString
+  level: 1
+  reward: 9.99
+  rewardtype: 
+  company: MyString
+  description: MyText
+  skills: MyText
