@@ -12,4 +12,5 @@ development:
 
 #test:
 
-#production:
+production:
+  adapter: postgresql
