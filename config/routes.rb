@@ -1,4 +1,7 @@
 Careerfriend::Application.routes.draw do
+  resources :jobs
+
+
   devise_for :users
 
   get "home/index"
