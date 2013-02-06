@@ -21,6 +21,7 @@ group :assets do
 end
 
 gem 'bootstrap-sass'
+gem 'devise'
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
