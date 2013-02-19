@@ -4,9 +4,6 @@ body {
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
-  header .container {
-    background-color: #00204a;
-  }
 }
 
 p, ol, ul, td {
@@ -27,8 +24,8 @@ a {
     color: #666;
   }
   &:hover {
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #f2a057;
   }
 }
 
