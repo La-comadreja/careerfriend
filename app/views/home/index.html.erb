@@ -1,3 +1,11 @@
 <h1>TechMat.ch</h1>
-<p>Earn Money Referring Your Friends to Jobs!</p>
+<p>Earn Money Referring Your Friends to Tech Jobs!</p>
 <p>$600 if you refer a friend to a job they accept.</p>
+
+<div class="frontpageinfo">
+  <%= link_to('Browse All Jobs', jobs_path) %>
+  <% if Job.last %>
+    <h2 class="highlight">Skills We Look For</h2>
+    <p><%= truncate(Job.last.skills, :length => 200) %></p>
+  <% end %>
+</div>
