@@ -6,6 +6,6 @@
   <%= link_to('Browse All Jobs', jobs_path) %>
   <% if Job.last %>
     <h2 class="highlight">Skills We Look For</h2>
-    <p><%= truncate(Job.last.skills, :length => 200) %> <%= link_to('View Details', job_path(Job.last)) %></p>
+    <p><%= truncate(Job.last.skills, :length => 200) %> <%= link_to('View Job Details', job_path(Job.last)) %></p>
   <% end %>
 </div>
