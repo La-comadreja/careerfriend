@@ -1,4 +1,10 @@
 Careerfriend::Application.routes.draw do
+  resources :referrals
+
+
+  resources :applics
+
+
   resources :jobs
 
 
