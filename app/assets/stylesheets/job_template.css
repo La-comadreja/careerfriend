@@ -2,7 +2,7 @@ body {
   margin: 0;
   color: #5f5f5f;
   min-width: 1000px;
-  background: #38afc0;
+  background: #688cbc;
   font: 12px/15px Arial, Helvetica, sans-serif;
 }
 img {
@@ -10,7 +10,7 @@ img {
   vertical-align: top;
 }
 a {
-  color: #fff;
+  color: #eee;
   text-decoration: none;
 }
 a:hover {
