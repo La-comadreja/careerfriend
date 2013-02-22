@@ -12,9 +12,9 @@
         <h1 class="logo"></h1>
         <div class="login-block">
           <% if user_signed_in? %>
-            Logged in as <% current_user.name %>.  <%= link_to 'Log Out', destroy_user_session_path, :method => :delete %>
+            Logged in as <%= current_user.email %>.  <%= link_to 'Log Out', destroy_user_session_path, :method => :delete %>
           <% else %>
-            <a href="#" class="account">Create account</a>
+            <a href=<%= new_user_registration_path %> class="account">Create Account</a>
             <span class="sign"><span>Sign in</span></span>
             <form class="sign-form" action="#">
               <fieldset>
