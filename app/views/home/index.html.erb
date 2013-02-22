@@ -15,21 +15,7 @@
             Logged in as <%= current_user.email %>.  <%= link_to 'Log Out', destroy_user_session_path, :method => :delete %>
           <% else %>
             <a href=<%= new_user_registration_path %> class="account">Create Account</a>
-            <span class="sign"><span>Sign in</span></span>
-            <form class="sign-form" action="#">
-              <fieldset>
-                <div class="row">
-                  <span class="text"><input type="text" value="username"/></span>
-                  <span class="text"><input type="password" value="password"/></span>
-                  <input type="submit" value="Go" class="submit" />
-                </div>
-                <div class="row">
-                  <label for="check-1">Remember me</label>
-                  <input type="checkbox" class="check" id="check-1" />
-                  <a href="#">Forgot your password?</a>
-                </div>
-              </fieldset>
-            </form>
+            <%= render 'devise/sessions/new' %>            
           <% end %>
         </div>
       </div>
