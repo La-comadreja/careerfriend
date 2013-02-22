@@ -2,9 +2,9 @@
 <%= form_for(resource, :as => resource_name, :url => session_path(resource_name), :html => {:class => "sign-form"}) do |f| %>
   <fieldset>
     <div class="row">
-      <span class="text"><input type="text" value="username"/></span>
+      <span class="text"><input type="text" value="email"/></span>
       <span class="text"><input type="password" value="password"/></span>
-      <input type="submit" value="Go" class="submit" />
+      <%= f.submit "Go", :html => {:class => "submit"} %>
     </div>
     <div class="row">
       <label for="check-1">Remember me</label>
