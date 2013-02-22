@@ -72,8 +72,10 @@ fieldset {
   padding:12px 0 15px 3px;
 }
 .login-block {
-  width:269px;
+  color:#000;
   float:right;
+  font-weight:bold;
+  width:269px;
 }
 .account {
   float:left;
